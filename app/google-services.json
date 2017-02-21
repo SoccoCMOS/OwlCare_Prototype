@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "360469078174",
+    "firebase_url": "https://owl-heartsense-api.firebaseio.com",
+    "project_id": "owl-heartsense-api",
+    "storage_bucket": "owl-heartsense-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360469078174:android:ac9c14bd28f9eec6",
+        "android_client_info": {
+          "package_name": "co.owlmed_dz.owlcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360469078174-vb5c4r0a05svgt3vfr205pgcotii78s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.owlmed_dz.owlcare",
+            "certificate_hash": "C2593A46F52F5DBBE5F3E89A1786893297603348"
+          }
+        },
+        {
+          "client_id": "360469078174-3olvjm6gio2n20ao9frcmrgj4bp8aaaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{ "current_key": "AIzaSyA41rALCH4A1iHXxPBmfEj22X8roM3Cs94" }],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360469078174-3olvjm6gio2n20ao9frcmrgj4bp8aaaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

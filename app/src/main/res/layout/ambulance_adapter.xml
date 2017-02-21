@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_call"
+        android:background="#ffffff"
+        android:id="@+id/imageButton6"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton7" />
+
+    <TextView
+        android:text="Adr:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_alignTop="@+id/pic"
+        android:layout_toEndOf="@+id/pic" />
+
+    <TextView
+        android:text="Tel:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:text="Cité Hayet _ Ain Naadja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/adress"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:text="Oxygène, transfusion, scope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adress"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_above="@+id/tel"
+        android:layout_alignTop="@+id/textView5" />
+
+    <TextView
+        android:text="Services:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/pic" />
+
+    <TextView
+        android:text="NOMNOMNOM NOMNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/pic"
+        android:layout_marginStart="11dp"
+        android:background="@color/black_overlay"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:text="mailxyz@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/tel"
+        android:layout_alignEnd="@+id/name" />
+
+    <TextView
+        android:text="Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/textView4"
+        android:layout_toEndOf="@+id/pic" />
+
+    <TextView
+        android:text="0770515695"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/mail" />
+
+</RelativeLayout>

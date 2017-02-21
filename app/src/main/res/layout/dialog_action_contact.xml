@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Dr NOMNOMNOM PrénomPrénom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dN"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_email"
+            android:background="#ffffff"
+            android:id="@+id/dMail"
+            android:layout_marginTop="50dp"
+            android:tint="#d62d20"
+
+            android:layout_toRightOf="@+id/dSms"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_call"
+            android:background="#ffffff"
+            android:id="@+id/dCall"
+            android:layout_marginTop="50dp"
+            android:tint="#0057e7"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_message"
+            android:background="#ffffff"
+            android:id="@+id/dSms"
+            android:layout_marginTop="50dp"
+            android:tint="#008744"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</RelativeLayout>

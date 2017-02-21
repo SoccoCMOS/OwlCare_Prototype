@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.owlmed_dz.owlcare">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_seul"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginServiceChooser" />
+        <activity
+            android:name=".Dashboard"
+            android:label="  Dashboard" />
+        <activity
+            android:name=".Fitness"
+            android:label="  Fitness"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".FollowUp"
+            android:label="@string/title_activity_follow_up"
+            android:parentActivityName=".Dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Monitoring"
+            android:label="Monitoring"
+            android:parentActivityName=".Fitness"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="Help"
+            android:parentActivityName=".Dashboard"></activity>
+
+        <activity
+            android:name=".Agenda_help"
+            android:label="Help Agenda">
+        </activity>
+        <activity
+            android:name=".information_help"
+            android:label="Help Information">
+        </activity>
+        <activity
+            android:name=".followUp_help"
+            android:label="Help Follow-Up">
+        </activity>
+        <activity
+            android:name=".background_help"
+            android:label="Help Background"
+            android:parentActivityName=".Dashboard">
+        </activity>
+        <activity
+            android:name=".Measures_help"
+            android:label="Help Measures">
+        </activity>
+    </application>
+
+</manifest>
